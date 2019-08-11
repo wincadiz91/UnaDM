@@ -1,0 +1,45 @@
+/* Programa: Meses del año (UNADM) */
+
+#include <conio.h>
+#include <stdio.h>
+
+int main()
+{
+    int mes;
+
+    printf( "\n   Ingrese numero de mes (1 - 12) del a%co: ", 164 );
+    scanf( "%d", &mes );
+
+    switch ( mes )
+    {
+        case  1 : printf( "\n   Enero, Estacion del a%co: Invierno", 164 ) ;
+                  break;
+        case  2 : printf( "\n   Febrero, Estacion del a%co: Invierno", 164 ) ;
+                  break;
+        case  3 : printf( "\n   Marzo, Estacion del a%co: Primavera", 164 ) ;
+                  break;
+        case  4 : printf( "\n   Abril, Estacion del a%co: Primavera", 164 ) ;
+                  break;
+        case  5 : printf( "\n   Mayo, Estacion del a%co: Primavera", 164 ) ;
+                  break;
+        case  6 : printf( "\n   Junio, Estacion del a%co: Verano", 164 ) ;
+                  break;
+        case  7 : printf( "\n   Julio, Estacion del a%co: Verano", 164 ) ;
+                  break;
+        case  8 : printf( "\n   Agosto, Estacion del a%co: Verano", 164 ) ;
+                  break;
+        case  9 : printf( "\n   Septiembre, Estacion del a%co: Oto%co", 164, 164 ) ;
+                  break;
+        case 10 : printf( "\n   Octubre, Estacion del a%co: Oto%co", 164, 164 ) ;
+                  break;
+        case 11 : printf( "\n   Noviembre, Estacion del a%co: Oto%co", 164, 164 ) ;
+                  break;
+        case 12 : printf( "\n   Diciembre, Estacion del a%co: Invierno", 164 ) ;
+                  break;
+        default : printf( "\n   ERROR: Numero de mes incorrecto." ) ;
+    }
+
+    getch(); /* Pausa */
+
+    return 0;
+}
